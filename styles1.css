@@ -74,8 +74,6 @@
       white-space: nowrap;
       opacity: 1;
     }
-
-    /* Modal Styling */
     .openmd1 {
       position: fixed;
       top: 0; left: 0;
@@ -103,7 +101,6 @@
       align-items: center;
       justify-content: center;
     }
-     }
     .openmd4 {
       position: fixed;
       top: 0; left: 0;
