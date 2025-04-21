@@ -1,0 +1,114 @@
+ .body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-width: 180px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+      font-size: 1.1;
+    }
+
+    .add-to-bag {
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 8px;
+      transition: background 0.3s;
+    }
+
+    .add-to-bag:hover {
+      background: black;
+    }
+
+    .add-to-bag:hover::after {
+      content: "Add to Shopping Cart";
+      position: absolute;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: grey;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      opacity: 1;
+    }
+
+    /* Modal Styling */
+    .openmd1 {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: grey;
+      display: ;
+      align-items: center;
+      justify-content: center;
+    }
+    .openmd2 {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: grey;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .openmd3 {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: grey;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+     }
+    .openmd4 {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: grey;
+      display: none;
+      align-items: center;
+      justify-content: center;
